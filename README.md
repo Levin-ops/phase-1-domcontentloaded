@@ -23,9 +23,9 @@ In this lesson, we'll be focusing on `DOMContentLoaded`.
 ## Why is DOMContentLoaded Important?
 
 The `DOMContentLoaded` event is the browser's built-in way to indicate when a
-page's html is loaded into the DOM. It isn't possible to manipulate HTML
+page's html is loaded into the DOM.***It isn't possible to manipulate HTML
 elements that haven't rendered yet, so trying to manipulate the DOM before the
-page fully loads can potentially lead to problems.
+page fully loads can potentially lead to problems.***
 
 We need to make sure to wait until _after_ the `DOMContentLoaded` event is
 triggered to safely execute our code. By creating an event listener, we can keep
